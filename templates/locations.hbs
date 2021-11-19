@@ -4,6 +4,11 @@
         "$id": "locations",
         "source": "knowledgeGraph",
         "destination": "pages",
+        "filter" : {
+            "savedFilterIds": [
+                "737093076"
+            ]
+        },
         "fields": [
             "id", 
             "uid", 
@@ -17,11 +22,9 @@
             "slug",
             "geocodedCoordinate",
             "c_pagesHeroImage"
-        ], 
-        "filter" : {
-            "savedFilterIds": [
-                "737093076"
-            ]
+        ],
+        "localization": {
+            "locales": ["en-za"]
         }
     },
     "urlFormat": "{{id}}"
