@@ -1,0 +1,61 @@
+---
+{
+    "stream": {
+        "$id": "locations",
+        "source": "knowledgeGraph",
+        "destination": "pages",
+        "fields": [
+            "id", 
+            "uid", 
+            "name", 
+            "address", 
+            "mainPhone",
+            "description", 
+            "hours",
+            "photoGallery",
+            "slug",
+            "geocodedCoordinate",
+            "c_pagesHeroImage"
+        ], 
+        "filter" : {
+            "entityTypes": [
+                "location"
+            ]
+        }
+    },
+    "urlFormat": "{{id}}"
+}
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {{>head }}
+        <title>{{name}}</title>
+        {{>schema}}
+        <link rel="shortcut icon" type="image/jpg" href="/images/yext-favicon.png"/>
+    </head>
+    <body>      
+            <div class="w-full">
+                {{>nav}}
+                {{>banner}}
+                {{>hero}}
+                <div class="centered-container">
+                    <div class="section">{{>locationdetails}} </div>
+                </div>
+            </div>
+            <div class="w-full bg-sauce-blue">
+                <div class="centered-container">
+                   <div class="section">{{>promotions}} </div>
+                </div>
+            </div>
+             <div class="w-full">
+                <div class="centered-container">
+                    <div class="section">{{>treatments}}</div>
+                    <div class="section">{{>products}}</div>
+                    <div class="section">{{>nearby geocodedCoordinate}}</div>
+                    <div class="section">{{>footer}}
+                    </div>
+                </div>
+            </div>
+    </body> 
+</html>

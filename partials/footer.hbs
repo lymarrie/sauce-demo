@@ -1,0 +1,15 @@
+<footer class="text-white space-y-5">
+    <div class="flex justify-between">
+        <div class="space-x-3">
+            {{#each global.footer.links}}
+                <a href="{{href}}" class="text-white underline hover:no-underline">{{text}}</a>
+            {{/each}}
+        </div>
+            <a class=" hover:text-blue-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+            </a>
+    </div>
+    <div class="mx-auto text-sm text-center sm:text-left "> Copyright © 2021 Sorbet Group. All Rights Reserved </div>
+</footer>

@@ -1,0 +1,66 @@
+{
+    "name": "Sorbet Man",
+    "accountId": "3488143",
+    "googleApiKey": "",
+    "liveApiKey": "",
+    "promotionImage": "https://dynl.mktgcdn.com/p/eGf-Jf0BtFf5-49lFI65LB35ylDm3dlFWCqN5GdYeaI/3000x3000.jpg",
+    "header": {
+        "links": [
+            {
+                "text": "Treatment Menu",
+                "href": "https://www.sorbetman.co.za/wp-content/uploads/2021/06/MAN-MENU-2021-.pdf"
+            },
+            {
+                "text": "Products",
+                "href": "https://www.sorbetman.co.za/man/products/"
+            },
+            {
+                "text": "Promos",
+                "href": "https://www.sorbetman.co.za/man/promos/"
+            },
+            {
+                "text": "Gift Cards",
+                "href": "https://www.sorbetman.co.za/product/customize-your-gift-card/"
+            },
+            {
+                "text": "Careers",
+                "href": "https://www.sorbetman.co.za/sorbetcareers"
+            },
+            {
+                "text": "Loyalty",
+                "href": "https://www.sorbetman.co.za/sorbet-society/"
+            }
+        ]
+    },
+    "footer": {
+        "links": [
+            {
+                "text": "Terms & Conditions",
+                "href": "https://www.sorbetman.co.za/terms-conditions/"
+            },
+            {
+                "text": "PAIA Manual",
+                "href": "https://www.sorbetman.co.za/paia-manual/"
+            },
+            {
+                "text": "Privacy Policy",
+                "href": "https://www.long4life.co.za/privacy-policy/"
+            },
+            {
+                "text": "Copyright",
+                "href": "https://www.sorbetman.co.za/copyright/"
+            },
+            {
+                "text": "Disclaimer",
+                "href": "https://www.sorbetman.co.za/disclaimer/"
+            }
+        ],
+        "social": [
+            {
+                "name": "Facebook",
+                "image": "",
+                "href": ""
+            }
+        ]
+    }
+}
